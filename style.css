@@ -1,0 +1,60 @@
+.table {
+    border-spacing: 10px;
+    border: solid rgb(243, 111, 236);
+    border-radius: 10px;
+    margin: auto;
+    /* box-shadow: -7px 5px 10px 1px #FF0C99; */
+}
+
+td {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5em;
+    border: solid 1px;
+    border-color: rgb(243, 111, 236);
+}
+
+.board td:hover {
+    background: linear-gradient(to bottom, black, gray);
+    cursor: pointer;
+}
+
+.shown {
+    border: solid 1px;
+    border-color: aquamarine;
+    background: rgb(86, 85, 85)
+}
+
+
+
+button :hover {
+    font-size: 15px;
+}
+
+.button {
+    display: inline-block;
+    border: solid rgb(243, 111, 236);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    background: #111;
+    color: white;
+    text-align: center;
+}
